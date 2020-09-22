@@ -1,0 +1,43 @@
+
+/* h1{
+    text-align: left;
+}
+h2 {
+    text-align: center;
+} */
+/* video, canvas{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+} */
+
+video{
+    position: relative;
+    z-index: -1;
+}
+
+#custom-message{
+    position: relative;
+    color: rgb(230, 200, 98);
+    z-index:1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+  }
+
+
+
